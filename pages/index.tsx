@@ -72,8 +72,8 @@ const Home: NextPage = () => {
             id="menu"
             className={
               menuOpen
-                ? "absolute z-40 top-0 bottom-0 left-0 flex flex-col items-center self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black md:hidden"
-                : "absolute z-40 top-0 bottom-0 left-0 flex-col items-center self-end hidden w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black md:hidden"
+                ? "absolute z-40 top-0 bottom-0 left-0 flex flex-col items-center self-end w-full min-h-screen py-1 pt-40 space-y-3 text-lg text-white uppercase bg-black md:hidden"
+                : "absolute z-40 top-0 bottom-0 left-0 flex-col items-center self-end hidden w-full min-h-screen py-1 pt-40 space-y-3 text-lg text-white uppercase bg-black md:hidden"
             }
           >
             <Link href="#" className="hover:text-pink-500">
