@@ -6,15 +6,21 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
     extend: {
-      spacing: {
-        128: "32rem",
-      },
       fontFamily: {
-        sans: ["Mulish", "sans-serif"],
-        mono: ["Rokkitt", "monospace"],
+        sans: ["Josefin Sans", "sans-serif"],
+        alata: ["Alata"],
+      },
+      letterSpacing: {
+        widest: ".3em",
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };
