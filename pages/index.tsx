@@ -296,11 +296,11 @@ const Home: NextPage = () => {
       {/* Credentials  */}
       <section id="author">
         {/* Author Container    */}
-        <div className="container max-w-6xl mx-auto my-32 py-12 text-gray-900">
+        <div className="container max-w-6xl mx-auto my-32 py-12 px-6 text-gray-900">
           <h2 className="uppercase text-4xl md:text-5xl text-center md:text-left mb-6">
             Author
           </h2>
-          <p className="max-w-lg mx-auto md:mx-0 text-center md:text-left">
+          <p className="max-w-md mx-auto md:mx-0 text-center md:text-left">
             This site was created by{" "}
             <Link href="https://github.com/YoheiKo" target="_blank">
               YoheiKo
