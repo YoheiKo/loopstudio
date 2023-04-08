@@ -293,6 +293,28 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
+      {/* Credentials  */}
+      <section id="author">
+        {/* Author Container    */}
+        <div className="container max-w-6xl mx-auto my-32 py-12 text-gray-900">
+          <h2 className="uppercase text-4xl md:text-5xl text-center md:text-left mb-6">
+            Author
+          </h2>
+          <p className="max-w-lg mx-auto md:mx-0 text-center md:text-left">
+            This site was created by{" "}
+            <Link href="https://github.com/YoheiKo" target="_blank">
+              YoheiKo
+            </Link>{" "}
+            using Taiwind and Next.js.
+            <br />
+            The content of this site don't have backend features. Full credit to
+            <Link href="https://www.traversymedia.com/" target="_blank">
+              www.traversymedia.com
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
       {/* Todo Footer */}
       <footer className="bg-black">
         {/* Container  */}
